@@ -1,0 +1,17 @@
+logging:
+  level:
+    com.intuit.karate: DEBUG
+
+spring:
+  security:
+    user:
+      name: it
+      password: it
+      token: aXQ6aXQ=
+  datasource:
+    url: jdbc:h2:mem:coapit
+    username: it
+    password: it
+    driver-class-name: org.h2.Driver
+  jpa:
+    database-platform: org.hibernate.dialect.H2Dialect
